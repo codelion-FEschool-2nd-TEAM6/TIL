@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 과제</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>나와 잘맞는 회사는?</h1>
+      <p>가고 싶은 회사에 대한 호감도를 조사합니다. 아이고 의미 없다 ㅠㅠ</p>
+    </header>
+    <main>
+      <section>
+        <p>다음 문자중 왠지 마음에 드는 것을 하나 고르세오.</p>
+        <form action="">
+          <label for=""><input type="radio" name="company" id="nav" />네</label
+          ><label for=""><input type="radio" name="company" id="ka" />카</label
+          ><label for=""><input type="radio" name="company" id="li" />라</label
+          ><label for=""><input type="radio" name="company" id="cou" />쿠</label
+          ><label for=""
+            ><input type="radio" name="company" id="bae" />베</label
+          >
+        </form>
+      </section>
+
+      <section>
+        <p>
+          친구와 문자를 합니다. 어떤 메신저를 이용하시겠습니까? 모두 골라주세요.
+        </p>
+        <form action="">
+          <label for=""
+            ><input type="checkbox" name="msg" id="kat" />카카오톡</label
+          ><label for=""
+            ><input type="checkbox" name="msg" id="line" />라인</label
+          ><label for=""
+            ><input type="checkbox" name="msg" id="insta" />인스타그램</label
+          ><label for=""
+            ><input type="checkbox" name="msg" id="nate" />네이트온</label
+          ><label for=""
+            ><input type="checkbox" name="msg" id="buddy" />버디버디</label
+          >
+        </form>
+      </section>
+
+      <section>
+        <p>면접에서 자신의 포부를 한 문장으로 얘기한다면?</p>
+        <form action="">
+          <label for=""><input type="text" /> </label>
+        </form>
+      </section>
+
+      <section>
+        <p>당신은 지금 최종면접을 앞두고 있습니다. 면접장에 들어가기 직전, 자기 자신에게 해주고 싶은 말은?</p>
+        <label for=""><textarea name="" id="" cols="40" rows="2" "></textarea></label>
+      </section>
+
+      <section>
+        <p>
+          다음 중 기술 면접때 듣고 싶은 질문이 아닌것은?
+        </p>
+        <select name="hate-interview-subject" id="">
+          <option value="">선택</option>
+          <option value="">HTML</option>
+          <option value="">CSS</option>
+          <option value="">Javascript</option>
+        </select>
+      </section>
+
+        <section> 
+          <p>취업을 희망하는 날짜를 선택해주세요</p>
+          <p>날짜</p>
+          <form action="">
+            <label for="">
+          <input type="date" name="date">
+        </label>
+        </form>
+        </section>
+
+        <section>
+          <p>업무를 시작 하기에 가장 적당한 시간을 고르세요</p>
+          <p>시간</p>
+          <form action="">
+            <label for="">
+        <input type="time" name="type">
+      </label>
+      </form>
+        </section>
+
+        <section class="bottom">
+        <form action="">
+        <label for="">
+      <input type="submit">
+        </label>
+      </form>
+      <form action="">
+      <button>양식 지우기</button>
+    </form>
+    </section>
+
+    </main>
+  </body>
+</html>

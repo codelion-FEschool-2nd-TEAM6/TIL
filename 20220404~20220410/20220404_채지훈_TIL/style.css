@@ -1,0 +1,13 @@
+label {
+  display: block;
+}
+
+section, header {
+  margin: 20px;
+  border: 2px solid gray;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
