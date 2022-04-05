@@ -1,0 +1,51 @@
+
+caption h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 90px;
+  color: red;
+}
+
+.table-title {
+  display: flex;
+  justify-content: space-between;
+}
+.table-title p {
+  color: gray;
+  font-weight: bold;
+}
+
+td,
+th {
+  font-weight: bold;
+}
+
+td {
+  width: 35px;
+  height: 20px;
+}
+
+
+td:nth-child(1) {
+  color: red;
+}
+
+td:nth-child(9) {
+  color: red;
+}
+
+td:nth-child(17) {
+  color: red;
+}
+
+.holiday {
+  color: red;
+}
+
+tr:nth-child(1) {
+  font-size: 35px;
+}
+
+tr:nth-child(10) {
+  font-size: 35px;
+}
