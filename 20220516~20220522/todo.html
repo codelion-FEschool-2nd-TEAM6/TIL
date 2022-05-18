@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+</head>
+<body>
+    <script>
+    
+        class Todo {
+            constructor(todoTxt){
+                this.todoTxt = todoTxt;
+                this.finished=false;
+            }
+
+            changeState(){
+                this.finished=!this.finished;
+        }
+
+        class TodoManager {
+            constructor() {
+                this.todolist=[]
+            }
+
+            addItem(todoTxt){
+                this.todolist.push(new Todo(item));
+            }
+            getItems(){
+                return this.todolist
+            }
+            getLeftTodoCount(){
+                return this.todolist.filter(todo ->todo.finished===false.length
+            }
+        }
+
+        let todos = new TodoManager();
+        todos.getItems()[0].changeState()
+    </script>
+</body>
+</html>
